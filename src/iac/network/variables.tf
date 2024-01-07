@@ -13,6 +13,6 @@ variable availability_zones {
 
 variable public_subnets_cidr {
   type    = list(string)
-  default = ["172.20.0.0/16"]
+  default = ["0.0.0.0/16"]
   description = "public_subnets_cidr"
 }
